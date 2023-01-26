@@ -10,7 +10,7 @@ import json
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-from blue_loans_strings import *
+from gringotts_financial_strings import *
 
 def readData(json_file_name):
     

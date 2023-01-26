@@ -7,8 +7,8 @@ Created on Mon Jan 23 00:01:32 2023
 """
 
 import unittest
-from blue_loans_script import readData, addAnnualIncomeColumn, addFicoCategoryColumn, addInterestRateAnalysis
-from blue_loans_strings import *
+from gringotts_financial_script import readData, addAnnualIncomeColumn, addFicoCategoryColumn, addInterestRateAnalysis
+from gringotts_financial_strings import *
 
 class BlueLoansTests(unittest.TestCase):
         

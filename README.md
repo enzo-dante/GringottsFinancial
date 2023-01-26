@@ -4,11 +4,11 @@
 
 ### frontend
 
-![tableauDashboard](resources/)
+![tableauDashboard](resources/gringotts_financial_tableau_dashboard.gif)
 
 Tableau Public Dashboard Link:
 
-
+https://public.tableau.com/app/profile/enzo.vernon/viz/GringottsFinancial/GringottsFinancialLoans?publish=yes
 
 ### backend
 1. running blue_bank_script.py will analyze from a json file and export a clean excel file with new columns
@@ -24,25 +24,19 @@ Tableau Public Dashboard Link:
 
 The link to published tableau dashboard for testing below:
 
-
+https://public.tableau.com/app/profile/enzo.vernon/viz/GringottsFinancial/GringottsFinancialLoans?publish=yes
 
 # Acceptance Criteria:
 1. write an MVP that extracts bank loans data from a json file
-2. write a script that will export a clean excel file with new columns
-3. use tableau to SQL join multiple datasets together to produce the relevant meaning and visualize your findings into a publicly-published dashboard that can filter the dataset
+2. write a python script that will export a clean csv file with new columns
+3. use tableau to import the clean csv as a text file and visualize your findings into a publicly-published dashboard that can filter the dataset
 
 ### story reference:
-https://github.com/enzo-dante/
+https://github.com/enzo-dante/GringottsFinancial
 
 # Build Tests:
 
 ### python unit_tests
-
-### jest
-n/a
-
-### angular
-n/a
 
 # Before:
 ![appRunBefore](resources/gringotts_financial_script_tests_before.gif)
@@ -53,5 +47,3 @@ n/a
 # Kanban Board:
 
 ### TO-DO
-
-US0002-use tableau to SQL join multiple datasets together to produce the relevant meaning and visualize your findings into a publicly-published dashboard that can filter the dataset-edv
